@@ -10,14 +10,14 @@ stats_daemon.py
 Usage: stats_daemon.py [options]
 
 Options:
- -h, --help            show this help message and exit
- -p PUBKEY, --pubkey=PUBKEY
-                       allows passing a file with public key
- -i HOSTINFO, --host=HOSTINFO
-                       allows passing a file with IP address, username and
-                       password
- -s STATS, --stats=STATS
-                       allows specifying the csv file for output
+  -h, --help            show this help message and exit
+  -p PUBKEY, --pubkey=PUBKEY
+                        allows passing a file with public key
+  -i HOSTINFO, --host=HOSTINFO
+                        allows passing a file with host information in the
+                        format "IPaddress username password"
+  -s STATS, --stats=STATS
+                        allows specifying the csv file for output
                        
 parse_stats.py
 Usage: parse_stats.py [options]
