@@ -71,7 +71,7 @@ try:
 			print "Running get info on host " + k
 			outfile.write(k + "," +  str(datetime.today()) + "," + str(host_stats[0]) + "," + str(host_stats[1])+ "," + str(host_stats[2]) + "\n")
 			outfile.flush()
-			time.sleep(2)
+		time.sleep(60)
 except KeyboardInterrupt:
 	pass
 outfile.close()
